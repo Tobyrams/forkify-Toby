@@ -168,6 +168,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+const starterMessage = function () {
+  console.log('Welcome to the program');
+};
+
 /**
  * Initialize the application.
  */
@@ -182,6 +186,7 @@ const init = function () {
   // Call the 'addHandlerClick' method of 'paginationView' and pass 'controlPagination' as a handler.
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  starterMessage();
 };
 // Invoke the initialization function to set up the application.
 init();
