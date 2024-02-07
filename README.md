@@ -3,6 +3,8 @@
 
 This is an application that I coded along during a JavaScript course with [Jonas Schmedtmann](https://www.udemy.com/user/jonasschmedtmann/).
 Forkify is a website where you cand discover a wide variety of recipes, get detailed info on ingredients and instructions, save your favorites for later, and adjust serving sizes to fit your preferences. [Forkify](https://forkify-tebogorams.netlify.app/).
+> [!CAUTION]
+> NOT yet responsive in moblie views.
 
 
 ## Features
